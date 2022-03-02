@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="author" content="Seasand-yyh">
+  <meta name="description" content="gridster">
+  <meta http-equiv="keywords" content="gridster">
+  <title>Build grid from serialize</title>
+  <link rel="stylesheet" type="text/css" href="../gridster/jquery.gridster.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="../gridster/jquery.gridster.min.js"></script>
+</head>
+<body>
+  <h2>Build grid from serialized positions</h2>
+  <p>Build a entire new grid from previously stored positions obtained with <code>serialize</code> method.</p>
+  <br/><hr/><br/>
+  <div class="controls">
+    <button class="js-seralize">Build from serialize</button>
+  </div>
+  <div class="gridster">
+    <ul></ul>
+  </div>
+
+  <script type="text/javascript">
+    var serialization = [
+      { col: 1, row: 1, size_x: 2, size_y: 2 },
+      { col: 3, row: 1, size_x: 1, size_y: 2 },
+      { col: 4, row: 1, size_x: 1, size_y: 1 },
+      { col: 2, row: 3, size_x: 3, size_y: 1 },
+      { col: 1, row: 4, size_x: 1, size_y: 1 },
+      { col: 1, row: 3, size_x: 1, size_y: 1 },
+      { col: 2, row: 4, size_x: 1, size_y: 1 },
+      { col: 2, row: 5, size_x: 1, size_y: 1 }
+    ];
+
+    // sort serialization.
+    serialization = Gridster.sort_by_row_and_col_asc(serialization);
+
+    $(function() {
+      var gridster = $(".gridster ul").gridster({
+        widget_base_dimensions: [100, 100],
+        widget_margins: [10, 10]
+      }).data('gridster');
+
+      $('.js-seralize').on('click', function() {
+        gridster.remove_all_widgets();
+        $.each(serialization, function () {
+          gridster.add_widget('<li />', this.size_x, this.size_y, this.col, this.row);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
