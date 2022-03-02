@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0 20px;
+}
+
+.gridster {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.gridster ul {
+	list-style: none;
+}
+
+.gridster ul li {
+	cursor: move;
+	background-color: #E1F2DA;
+	border: 1px solid #C3E5B5;
+	border-radius: 3px;
+}
+
+.gridster ul li:hover {
+	background-color: #C3E5B5;
+}

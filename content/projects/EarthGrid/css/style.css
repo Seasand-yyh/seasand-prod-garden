@@ -1,0 +1,4900 @@
+/**
+ * style.css
+ */
+html, body {
+  background-color: #11151a;
+}
+
+.earth-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 388px;
+  height: 500px;
+  transform: translate(-50%,-50%);
+  background-color: #11151a;
+}
+
+.earth-nav {
+  position: relative;
+  animation: earth 250s linear 3.1s infinite normal;
+  -moz-animation: earth 250s linear 3.1s infinite normal;
+  -webkit-animation: earth 250s linear 3.1s infinite normal;
+  -o-animation: earth 250s linear 3.1s infinite normal;
+}
+
+.earth {
+  width: 100%;
+  padding-bottom: 127.9%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url("../images/earth_bg.jpg") no-repeat;
+  background-size: 100% 100%;
+  animation: earth_bg 3.1s linear 0s 1 normal forwards;
+  -moz-animation: earth_bg 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: earth_bg 3.1s linear 0s 1 normal forwards;
+  -o-animation: earth_bg 3.1s linear 0s 1 normal forwards;
+}
+
+.lines {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.pics {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.gion {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: 20.7%;
+  margin-left: 9.2%;
+  margin-right: auto;
+  width: 83.1%;
+  height: 66%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/gion.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.5s linear 3.1s infinite alternate;
+  -moz-animation: pics 1.5s linear 3.1s infinite alternate;
+  -webkit-animation: pics 1.5s linear 3.1s infinite alternate;
+  -o-animation: pics 1.5s linear 3.1s infinite alternate;
+}
+
+
+
+/** ======================================== lines style start ======================================== */
+
+.line_1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line001.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_1 .1s linear .5s 1 normal forwards;
+  -moz-animation: line_1 .1s linear .5s 1 normal forwards;
+  -webkit-animation: line_1 .1s linear .5s 1 normal forwards;
+  -o-animation: line_1 .1s linear .5s 1 normal forwards;
+}
+
+.line_2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line002.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_34 .1s linear 2.15s infinite normal forwards;
+  -moz-animation: line_34 .1s linear 2.15s 1 normal forwards;
+  -webkit-animation: line_34 .1s linear 2.15s 1 normal forwards;
+  -o-animation: line_34 .1s linear 2.15s 1 normal forwards;
+}
+
+.line_3 {
+  position: absolute;
+  left: 81%;
+  top: 65%;
+  width: 6.33%;
+  height: 2.18%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line003.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line004.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_35 .1s linear 2.2s 1 normal forwards;
+  -moz-animation: line_35 .1s linear 2.2s 1 normal forwards;
+  -webkit-animation: line_35 .1s linear 2.2s 1 normal forwards;
+  -o-animation: line_35 .1s linear 2.2s 1 normal forwards;
+}
+
+.line_5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line005.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_2 .1s linear .55s 1 normal forwards;
+  -moz-animation: line_2 .1s linear .55s 1 normal forwards;
+  -webkit-animation: line_2 .1s linear .55s 1 normal forwards;
+  -o-animation: line_2 .1s linear .55s 1 normal forwards;
+}
+
+.line_6 {
+  position: absolute;
+  left: 35.8%;
+  top: 79.2%;
+  width: 3.39%;
+  height: .41%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line006.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_7 {
+  position: absolute;
+  left: 28%;
+  top: 77%;
+  width: 7.46%;
+  height: 2.4%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line007.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_8 {
+  position: absolute;
+  left: 17.7%;
+  top: 65.3%;
+  width: 2.38%;
+  height: .22%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line008.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.5s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.5s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.5s linear 3.15s infinite alternate;
+  -o-animation: pics 1.5s linear 3.15s infinite alternate;
+}
+
+.line_9 {
+  position: absolute;
+  left: 14.9%;
+  top: 62.5%;
+  width: 3.84%;
+  height: 5.36%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line009.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_10 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line010.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_3 .1s linear .6s 1 normal forwards;
+  -moz-animation: line_3 .1s linear .6s 1 normal forwards;
+  -webkit-animation: line_3 .1s linear .6s 1 normal forwards;
+  -o-animation: line_3 .1s linear .6s 1 normal forwards;
+}
+
+.line_11 {
+  position: absolute;
+  left: 9.5%;
+  top: 50.7%;
+  width: .36%;
+  height: 4.44%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line011.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_12 {
+  position: absolute;
+  left: 9.5%;
+  top: 45.5%;
+  width: 1.05%;
+  height: 5.33%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line012.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_13 {
+  position: absolute;
+  left: 38%;
+  top: 18.3%;
+  width: 5.73%;
+  height: 1.7%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line013.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_14 {
+  position: absolute;
+  left: 36.5%;
+  top: 18.3%;
+  width: 5.36%;
+  height: 2.46%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line014.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_15 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line015.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_4 .1s linear .65s 1 normal forwards;
+  -moz-animation: line_4 .1s linear .65s 1 normal forwards;
+  -webkit-animation: line_4 .1s linear .65s 1 normal forwards;
+  -o-animation: line_4 .1s linear .65s 1 normal forwards;
+}
+
+.line_16 {
+  position: absolute;
+  left: 91%;
+  top: 49.3%;
+  width: .97%;
+  height: 5.48%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line016.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.6s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.6s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.6s linear 3.15s infinite alternate;
+  -o-animation: pics 1.6s linear 3.15s infinite alternate;
+}
+
+.line_17 {
+  position: absolute;
+  left: 90.7%;
+  top: 44%;
+  width: .44%;
+  height: 5.23%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line017.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_18 {
+  position: absolute;
+  left: 83.5%;
+  top: 35%;
+  width: 3.06%;
+  height: 3.31%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line018.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_19 {
+  position: absolute;
+  left: 83.2%;
+  top: 34.4%;
+  width: 3.1%;
+  height: .13%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line019.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.65s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.65s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.65s linear 3.15s infinite alternate;
+  -o-animation: pics 1.65s linear 3.15s infinite alternate;
+}
+
+.line_20 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line020.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_5 .1s linear .7s 1 normal forwards;
+  -moz-animation: line_5 .1s linear .7s 1 normal forwards;
+  -webkit-animation: line_5 .1s linear .7s 1 normal forwards;
+  -o-animation: line_5 .1s linear .7s 1 normal forwards;
+}
+
+.line_21 {
+  position: absolute;
+  left: 87.5%;
+  top: 38.5%;
+  width: 3.35%;
+  height: 5.33%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line021.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_22 {
+  position: absolute;
+  left: 81.5%;
+  top: 68.5%;
+  width: 2.9%;
+  height: 3.25%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line022.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_23 {
+  position: absolute;
+  left: 77.5%;
+  top: 72%;
+  width: 1.9%;
+  height: 2.65%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line023.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_24 {
+  position: absolute;
+  left: 73.7%;
+  top: 72.5%;
+  width: 5.32%;
+  height: 2.05%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line024.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.7s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.7s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.7s linear 3.15s infinite alternate;
+  -o-animation: pics 1.7s linear 3.15s infinite alternate;
+}
+
+.line_25 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line025.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_6 .1s linear .75s 1 normal forwards;
+  -moz-animation: line_6 .1s linear .75s 1 normal forwards;
+  -webkit-animation: line_6 .1s linear .75s 1 normal forwards;
+  -o-animation: line_6 .1s linear .75s 1 normal forwards;
+}
+
+.line_26 {
+  position: absolute;
+  left: 70%;
+  top: 22%;
+  width: 7.62%;
+  height: 2.52%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line026.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.75s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.75s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.75s linear 3.15s infinite alternate;
+  -o-animation: pics 1.75s linear 3.15s infinite alternate;
+}
+
+.line_27 {
+  position: absolute;
+  left: 75.5%;
+  top: 49.5%;
+  width: 4.07%;
+  height: 1.26%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line027.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_28 {
+  position: absolute;
+  left: 71%;
+  top: 46%;
+  width: 3.75%;
+  height: 4.95%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line028.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_29 {
+  position: absolute;
+  left: 71%;
+  top: 44.5%;
+  width: 3.1%;
+  height: 1.8%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line029.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_30 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line030.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_7 .1s linear .8s 1 normal forwards;
+  -moz-animation: line_7 .1s linear .8s 1 normal forwards;
+  -webkit-animation: line_7 .1s linear .8s 1 normal forwards;
+  -o-animation: line_7 .1s linear .8s 1 normal forwards;
+}
+
+.line_31 {
+  position: absolute;
+  left: 64%;
+  top: 34.5%;
+  width: 7.66%;
+  height: 4.1%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line031.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.8s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.8s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.8s linear 3.15s infinite alternate;
+  -o-animation: pics 1.8s linear 3.15s infinite alternate;
+}
+
+.line_32 {
+  position: absolute;
+  left: 58.5%;
+  top: 30%;
+  width: 7.98%;
+  height: 4.38%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line032.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_33 {
+  position: absolute;
+  left: 24.7%;
+  top: 35.8%;
+  width: 3.75%;
+  height: 5.14%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line033.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.85s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.85s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.85s linear 3.15s infinite alternate;
+  -o-animation: pics 1.85s linear 3.15s infinite alternate;
+}
+
+.line_34 {
+  position: absolute;
+  left: 26.5%;
+  top: 32.3%;
+  width: 2.22%;
+  height: 3.56%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line034.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_35 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line035.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_8 .1s linear .85s 1 normal forwards;
+  -moz-animation: line_8 .1s linear .85s 1 normal forwards;
+  -webkit-animation: line_8 .1s linear .85s 1 normal forwards;
+  -o-animation: line_8 .1s linear .85s 1 normal forwards;
+}
+
+.line_36 {
+  position: absolute;
+  left: 22%;
+  top: 32.2%;
+  width: 4.56%;
+  height: .66%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line036.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_37 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line037.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_50 .1s linear 2.95s 1 normal forwards;
+  -moz-animation: line_50 .1s linear 2.95s 1 normal forwards;
+  -webkit-animation: line_50 .1s linear 2.95s 1 normal forwards;
+  -o-animation: line_50 .1s linear 2.95s 1 normal forwards;
+}
+
+.line_38 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line038.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_51 .1s linear 3s 1 normal forwards;
+  -moz-animation: line_51 .1s linear 3s 1 normal forwards;
+  -webkit-animation: line_51 .1s linear 3s 1 normal forwards;
+  -o-animation: line_51 .1s linear 3s 1 normal forwards;
+}
+
+.line_39 {
+  position: absolute;
+  left: 80%;
+  top: 64%;
+  width: 4.4%;
+  height: 3.03%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line039.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.9s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.9s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.9s linear 3.15s infinite alternate;
+  -o-animation: pics 1.9s linear 3.15s infinite alternate;
+}
+
+.line_40 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line040.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_9 .1s linear .9s 1 normal forwards;
+  -moz-animation: line_9 .1s linear .9s 1 normal forwards;
+  -webkit-animation: line_9 .1s linear .9s 1 normal forwards;
+  -o-animation: line_9 .1s linear .9s 1 normal forwards;
+}
+
+.line_41 {
+  position: absolute;
+  left: 68%;
+  top: 70%;
+  width: 5.48%;
+  height: 3.78%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line041.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_42 {
+  position: absolute;
+  left: 53%;
+  top: 47%;
+  width: 3.63%;
+  height: 4.95%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line042.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.5s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.5s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.5s linear 3.15s infinite alternate;
+  -o-animation: pics 2.5s linear 3.15s infinite alternate;
+}
+
+.line_43 {
+  position: absolute;
+  left: 48%;
+  top: 42%;
+  width: 4.88%;
+  height: 4.48%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line043.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.95s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.95s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.95s linear 3.15s infinite alternate;
+  -o-animation: pics 1.95s linear 3.15s infinite alternate;
+}
+
+.line_44 {
+  position: absolute;
+  left: 47.7%;
+  top: 32%;
+  width: 8.02%;
+  height: 1.61%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line044.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_45 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line045.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_10 .1s linear .95s 1 normal forwards;
+  -moz-animation: line_10 .1s linear .95s 1 normal forwards;
+  -webkit-animation: line_10 .1s linear .95s 1 normal forwards;
+  -o-animation: line_10 .1s linear .95s 1 normal forwards;
+}
+
+.line_46 {
+  position: absolute;
+  left: 36.5%;
+  top: 18.3%;
+  width: 5.24%;
+  height: 2.43%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line046.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_47 {
+  position: absolute;
+  left: 36.5%;
+  top: 19.3%;
+  width: 6.37%;
+  height: 1.48%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line047.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_48 {
+  position: absolute;
+  left: 43.5%;
+  top: 19%;
+  width: 5.44%;
+  height: 1.04%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line048.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_49 {
+  position: absolute;
+  left: 25.5%;
+  top: 20%;
+  width: 5.64%;
+  height: 3.34%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line049.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_50 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line050.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_11 .1s linear 1s 1 normal forwards;
+  -moz-animation: line_11 .1s linear 1s 1 normal forwards;
+  -webkit-animation: line_11 .1s linear 1s 1 normal forwards;
+  -o-animation: line_11 .1s linear 1s 1 normal forwards;
+}
+
+.line_51 {
+  position: absolute;
+  left: 21.5%;
+  top: 24.5%;
+  width: 4.07%;
+  height: 3.53%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line051.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_52 {
+  position: absolute;
+  left: 78.7%;
+  top: 38.5%;
+  width: 2.46%;
+  height: 4.38%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line052.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_53 {
+  position: absolute;
+  left: 71%;
+  top: 26%;
+  width: 7.42%;
+  height: 1.95%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line053.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_54 {
+  position: absolute;
+  left: 73.5%;
+  top: 28%;
+  width: 4.27%;
+  height: 5.33%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line054.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_55 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line055.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_12 .1s linear 1.05s 1 normal forwards;
+  -moz-animation: line_12 .1s linear 1.05s 1 normal forwards;
+  -webkit-animation: line_12 .1s linear 1.05s 1 normal forwards;
+  -o-animation: line_12 .1s linear 1.05s 1 normal forwards;
+}
+
+.line_56 {
+  position: absolute;
+  left: 70%;
+  top: 19%;
+  width: 5.16%;
+  height: 3.5%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line056.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2s linear 3.15s infinite alternate;
+  -moz-animation: pics 2s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2s linear 3.15s infinite alternate;
+  -o-animation: pics 2s linear 3.15s infinite alternate;
+}
+
+.line_57 {
+  position: absolute;
+  left: 64.8%;
+  top: 23%;
+  width: 6.49%;
+  height: 3.56%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line057.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_58 {
+  position: absolute;
+  left: 57%;
+  top: 16.4%;
+  width: 4.72%;
+  height: .25%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line058.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_59 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line059.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_42 .1s linear 2.55s 1 normal forwards;
+  -moz-animation: line_42 .1s linear 2.55s 1 normal forwards;
+  -webkit-animation: line_42 .1s linear 2.55s 1 normal forwards;
+  -o-animation: line_42 .1s linear 2.55s 1 normal forwards;
+}
+
+.line_60 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line060.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_13 .1s linear 1.1s 1 normal forwards;
+  -moz-animation: line_13 .1s linear 1.1s 1 normal forwards;
+  -webkit-animation: line_13 .1s linear 1.1s 1 normal forwards;
+  -o-animation: line_13 .1s linear 1.1s 1 normal forwards;
+}
+
+.line_61 {
+  position: absolute;
+  left: 55.3%;
+  top: 25.3%;
+  width: 4.84%;
+  height: 2.52%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line061.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_62 {
+  position: absolute;
+  left: 64%;
+  top: 25.3%;
+  width: 4.07%;
+  height: 6.43%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line062.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 1.55s linear 3.15s infinite alternate;
+  -moz-animation: pics 1.55s linear 3.15s infinite alternate;
+  -webkit-animation: pics 1.55s linear 3.15s infinite alternate;
+  -o-animation: pics 1.55s linear 3.15s infinite alternate;
+}
+
+.line_63 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line063.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_43 .1s linear 2.6s 1 normal forwards;
+  -moz-animation: line_43 .1s linear 2.6s 1 normal forwards;
+  -webkit-animation: line_43 .1s linear 2.6s 1 normal forwards;
+  -o-animation: line_43 .1s linear 2.6s 1 normal forwards;
+}
+
+.line_64 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line064.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_44 .1s linear 2.65s 1 normal forwards;
+  -moz-animation: line_44 .1s linear 2.65s 1 normal forwards;
+  -webkit-animation: line_44 .1s linear 2.65s 1 normal forwards;
+  -o-animation: line_44 .1s linear 2.65s 1 normal forwards;
+}
+
+.line_65 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line065.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_14 .1s linear 1.15s 1 normal forwards;
+  -moz-animation: line_14 .1s linear 1.15s 1 normal forwards;
+  -webkit-animation: line_14 .1s linear 1.15s 1 normal forwards;
+  -o-animation: line_14 .1s linear 1.15s 1 normal forwards;
+}
+
+.line_66 {
+  position: absolute;
+  left: 50.5%;
+  top: 21.5%;
+  width: 7.22%;
+  height: 3.69%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line066.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.05s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.05s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.05s linear 3.15s infinite alternate;
+  -o-animation: pics 2.05s linear 3.15s infinite alternate;
+}
+
+.line_67 {
+  position: absolute;
+  left: 12.5%;
+  top: 45%;
+  width: 3.67%;
+  height: .85%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line067.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.1s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.1s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.1s linear 3.15s infinite alternate;
+  -o-animation: pics 2.1s linear 3.15s infinite alternate;
+}
+
+.line_68 {
+  position: absolute;
+  left: 51%;
+  top: 39.8%;
+  width: 11.37%;
+  height: 7.98%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line068.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.1s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.1s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.1s linear 3.15s infinite alternate;
+  -o-animation: pics 2.1s linear 3.15s infinite alternate;
+}
+
+.line_69 {
+  position: absolute;
+  left: 55.5%;
+  top: 37.3%;
+  width: 10.12%;
+  height: 8.73%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line069.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_70 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line070.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_45 .1s linear 2.7s 1 normal forwards;
+  -moz-animation: line_45 .1s linear 2.7s 1 normal forwards;
+  -webkit-animation: line_45 .1s linear 2.7s 1 normal forwards;
+  -o-animation: line_45 .1s linear 2.7s 1 normal forwards;
+}
+
+.line_71 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line071.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_15 .1s linear 1.2s 1 normal forwards;
+  -moz-animation: line_15 .1s linear 1.2s 1 normal forwards;
+  -webkit-animation: line_15 .1s linear 1.2s 1 normal forwards;
+  -o-animation: line_15 .1s linear 1.2s 1 normal forwards;
+}
+
+.line_72 {
+  position: absolute;
+  left: 20.5%;
+  top: 69.3%;
+  width: 3.95%;
+  height: 2.27%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line072.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.1s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.1s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.1s linear 3.15s infinite alternate;
+  -o-animation: pics 2.1s linear 3.15s infinite alternate;
+}
+
+.line_73 {
+  position: absolute;
+  left: 23.5%;
+  top: 68%;
+  width: 3.14%;
+  height: 1.36%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line073.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_74 {
+  position: absolute;
+  left: 39.5%;
+  top: 77%;
+  width: 2.58%;
+  height: 2.17%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line074.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_75 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line075.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_16 .1s linear 1.25s 1 normal forwards;
+  -moz-animation: line_16 .1s linear 1.25s 1 normal forwards;
+  -webkit-animation: line_16 .1s linear 1.25s 1 normal forwards;
+  -o-animation: line_16 .1s linear 1.25s 1 normal forwards;
+}
+
+.line_76 {
+  position: absolute;
+  left: 39%;
+  top: 74%;
+  width: 5.12%;
+  height: 2.99%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line076.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_77 {
+  position: absolute;
+  left: 39%;
+  top: 74%;
+  width: 2.86%;
+  height: 3.12%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line077.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_78 {
+  position: absolute;
+  left: 32%;
+  top: 72.3%;
+  width: 6.98%;
+  height: 1.67%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line078.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.25s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.25s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.25s linear 3.15s infinite alternate;
+  -o-animation: pics 2.25s linear 3.15s infinite alternate;
+}
+
+.line_79 {
+  position: absolute;
+  left: 36%;
+  top: 71.6%;
+  width: 3.14%;
+  height: 2.46%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line079.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.3s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.3s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.3s linear 3.15s infinite alternate;
+  -o-animation: pics 2.3s linear 3.15s infinite alternate;
+}
+
+.line_80 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line080.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_17 .1s linear 1.3s 1 normal forwards;
+  -moz-animation: line_17 .1s linear 1.3s 1 normal forwards;
+  -webkit-animation: line_17 .1s linear 1.3s 1 normal forwards;
+  -o-animation: line_17 .1s linear 1.3s 1 normal forwards;
+}
+
+.line_81 {
+  position: absolute;
+  left: 28%;
+  top: 72.7%;
+  width: 4.43%;
+  height: 3.59%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line081.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_82 {
+  position: absolute;
+  left: 44%;
+  top: 48.4%;
+  width: 2.62%;
+  height: 3.37%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line082.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.35s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.35s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.35s linear 3.15s infinite alternate;
+  -o-animation: pics 2.35s linear 3.15s infinite alternate;
+}
+
+.line_83 {
+  position: absolute;
+  left: 31.2%;
+  top: 23.7%;
+  width: 5.12%;
+  height: 1.01%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line083.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_84 {
+  position: absolute;
+  left: 25.2%;
+  top: 25%;
+  width: 5.24%;
+  height: 1.76%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line084.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_85 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line085.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_18 .1s linear 1.35s 1 normal forwards;
+  -moz-animation: line_18 .1s linear 1.35s 1 normal forwards;
+  -webkit-animation: line_18 .1s linear 1.35s 1 normal forwards;
+  -o-animation: line_18 .1s linear 1.35s 1 normal forwards;
+}
+
+.line_86 {
+  position: absolute;
+  left: 18%;
+  top: 33%;
+  width: 4.07%;
+  height: 5.74%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line086.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_87 {
+  position: absolute;
+  left: 17.7%;
+  top: 33%;
+  width: 4.03%;
+  height: 5.74%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line087.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_88 {
+  position: absolute;
+  left: 28%;
+  top: 72.3%;
+  width: 3.55%;
+  height: .82%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line088.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_89 {
+  position: absolute;
+  left: 26%;
+  top: 67.8%;
+  width: 2.38%;
+  height: 4.63%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line089.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_90 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line090.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_19 .1s linear 1.4s 1 normal forwards;
+  -moz-animation: line_19 .1s linear 1.4s 1 normal forwards;
+  -webkit-animation: line_19 .1s linear 1.4s 1 normal forwards;
+  -o-animation: line_19 .1s linear 1.4s 1 normal forwards;
+}
+
+.line_91 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line091.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_47 .1s linear 2.8s 1 normal forwards;
+  -moz-animation: line_47 .1s linear 2.8s 1 normal forwards;
+  -webkit-animation: line_47 .1s linear 2.8s 1 normal forwards;
+  -o-animation: line_47 .1s linear 2.8s 1 normal forwards;
+}
+
+.line_92 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line092.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_48 .1s linear 2.85s 1 normal forwards;
+  -moz-animation: line_48 .1s linear 2.85s 1 normal forwards;
+  -webkit-animation: line_48 .1s linear 2.85s 1 normal forwards;
+  -o-animation: line_48 .1s linear 2.85s 1 normal forwards;
+}
+
+.line_93 {
+  position: absolute;
+  left: 29%;
+  top: 62.5%;
+  width: 5.24%;
+  height: 5.48%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line093.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_94 {
+  position: absolute;
+  left: 15%;
+  top: 55.5%;
+  width: .52%;
+  height: 4.19%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line094.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_95 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line095.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_20 .1s linear 1.45s 1 normal forwards;
+  -moz-animation: line_20 .1s linear 1.45s 1 normal forwards;
+  -webkit-animation: line_20 .1s linear 1.45s 1 normal forwards;
+  -o-animation: line_20 .1s linear 1.45s 1 normal forwards;
+}
+
+.line_96 {
+  position: absolute;
+  left: 15.3%;
+  top: 44%;
+  width: 1.73%;
+  height: 5.9%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line096.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.45s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.45s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.45s linear 3.15s infinite alternate;
+  -o-animation: pics 2.45s linear 3.15s infinite alternate;
+}
+
+.line_97 {
+  position: absolute;
+  left: 12%;
+  top: 37%;
+  width: 2.38%;
+  height: 4.98%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line097.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_98 {
+  position: absolute;
+  left: 16.3%;
+  top: 29%;
+  width: 3.31%;
+  height: 3.75%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line098.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_99 {
+  position: absolute;
+  left: 14.3%;
+  top: 33%;
+  width: 4.48%;
+  height: 4%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line099.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_100 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line100.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_21 .1s linear 1.5s 1 normal forwards;
+  -moz-animation: line_21 .1s linear 1.5s 1 normal forwards;
+  -webkit-animation: line_21 .1s linear 1.5s 1 normal forwards;
+  -o-animation: line_21 .1s linear 1.5s 1 normal forwards;
+}
+
+.line_101 {
+  position: absolute;
+  left: 17.8%;
+  top: 32.7%;
+  width: 4.15%;
+  height: 5.9%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line101.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.5s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.5s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.5s linear 3.15s infinite alternate;
+  -o-animation: pics 2.5s linear 3.15s infinite alternate;
+}
+
+.line_102 {
+  position: absolute;
+  left: 14.3%;
+  top: 35.2%;
+  width: 4.15%;
+  height: 4.98%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line102.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_103 {
+  position: absolute;
+  left: 11.7%;
+  top: 46%;
+  width: .97%;
+  height: 4.19%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line103.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_104 {
+  position: absolute;
+  left: 13%;
+  top: 45%;
+  width: 2.9%;
+  height: 4.98%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line104.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.55s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.55s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.55s linear 3.15s infinite alternate;
+  -o-animation: pics 2.55s linear 3.15s infinite alternate;
+}
+
+.line_105 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line105.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_22 .1s linear 1.55s 1 normal forwards;
+  -moz-animation: line_22 .1s linear 1.55s 1 normal forwards;
+  -webkit-animation: line_22 .1s linear 1.55s 1 normal forwards;
+  -o-animation: line_22 .1s linear 1.55s 1 normal forwards;
+}
+
+.line_106 {
+  position: absolute;
+  left: 13.7%;
+  top: 59%;
+  width: 2.34%;
+  height: .72%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line106.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_107 {
+  position: absolute;
+  left: 15.7%;
+  top: 48%;
+  width: 6.93%;
+  height: 6.34%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line107.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_108 {
+  position: absolute;
+  left: 15.5%;
+  top: 54%;
+  width: 3.23%;
+  height: 1.23%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line108.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_109 {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  width: .36%;
+  height: 5.33%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line109.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_110 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line110.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.6s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.6s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.6s linear 3.15s infinite alternate;
+  -o-animation: pics 2.6s linear 3.15s infinite alternate;
+}
+
+.line_111 {
+  position: absolute;
+  left: 50%;
+  top: 63%;
+  width: 7.9%;
+  height: .69%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line111.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_112 {
+  position: absolute;
+  left: 58.5%;
+  top: 72%;
+  width: 2.26%;
+  height: 3.78%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line112.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_113 {
+  position: absolute;
+  left: 60.5%;
+  top: 79.2%;
+  width: 4.43%;
+  height: .19%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line113.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_114 {
+  position: absolute;
+  left: 49%;
+  top: 79.2%;
+  width: 7.62%;
+  height: 1.29%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line114.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.7s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.7s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.7s linear 3.15s infinite alternate;
+  -o-animation: pics 2.7s linear 3.15s infinite alternate;
+}
+
+.line_115 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line115.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_24 .1s linear 1.65s 1 normal forwards;
+  -moz-animation: line_24 .1s linear 1.65s 1 normal forwards;
+  -webkit-animation: line_24 .1s linear 1.65s 1 normal forwards;
+  -o-animation: line_24 .1s linear 1.65s 1 normal forwards;
+}
+
+.line_116 {
+  position: absolute;
+  left: 42%;
+  top: 77.3%;
+  width: 7.3%;
+  height: 2.27%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line116.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_117 {
+  position: absolute;
+  left: 51%;
+  top: 70.7%;
+  width: 11.61%;
+  height: 6.81%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line117.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.65s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.65s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.65s linear 3.15s infinite alternate;
+  -o-animation: pics 2.65s linear 3.15s infinite alternate;
+}
+
+.line_118 {
+  position: absolute;
+  left: 29%;
+  top: 62.8%;
+  width: 5.32%;
+  height: 5.55%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line118.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_119 {
+  position: absolute;
+  left: 42.6%;
+  top: 71.5%;
+  width: 11.09%;
+  height: 6.71%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line119.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.75s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.75s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.75s linear 3.15s infinite alternate;
+  -o-animation: pics 2.75s linear 3.15s infinite alternate;
+}
+
+.line_120 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line120.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_25 .1s linear 1.7s 1 normal forwards;
+  -moz-animation: line_25 .1s linear 1.7s 1 normal forwards;
+  -webkit-animation: line_25 .1s linear 1.7s 1 normal forwards;
+  -o-animation: line_25 .1s linear 1.7s 1 normal forwards;
+}
+
+.line_121 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line121.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_46 .1s linear 2.75s 1 normal forwards;
+  -moz-animation: line_46 .1s linear 2.75s 1 normal forwards;
+  -webkit-animation: line_46 .1s linear 2.75s 1 normal forwards;
+  -o-animation: line_46 .1s linear 2.75s 1 normal forwards;
+}
+
+.line_122 {
+  position: absolute;
+  left: 41%;
+  top: 61.7%;
+  width: 10.77%;
+  height: 3.06%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line122.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.8s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.8s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.8s linear 3.15s infinite alternate;
+  -o-animation: pics 2.8s linear 3.15s infinite alternate;
+}
+
+.line_123 {
+  position: absolute;
+  left: 50%;
+  top: 63%;
+  width: 8.39%;
+  height: .54%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line123.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_124 {
+  position: absolute;
+  left: 15%;
+  top: 37.8%;
+  width: 4.03%;
+  height: 7.75%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line124.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_125 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line125.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_26 .1s linear 1.75s 1 normal forwards;
+  -moz-animation: line_26 .1s linear 1.75s 1 normal forwards;
+  -webkit-animation: line_26 .1s linear 1.75s 1 normal forwards;
+  -o-animation: line_26 .1s linear 1.75s 1 normal forwards;
+}
+
+.line_126 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line126.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_49 .1s linear 2.9s 1 normal forwards;
+  -moz-animation: line_49 .1s linear 2.9s 1 normal forwards;
+  -webkit-animation: line_49 .1s linear 2.9s 1 normal forwards;
+  -o-animation: line_49 .1s linear 2.9s 1 normal forwards;
+}
+
+.line_127 {
+  position: absolute;
+  left: 38.5%;
+  top: 50.3%;
+  width: 9.64%;
+  height: 6.18%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line127.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.85s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.85s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.85s linear 3.15s infinite alternate;
+  -o-animation: pics 2.85s linear 3.15s infinite alternate;
+}
+
+.line_128 {
+  position: absolute;
+  left: 54.5%;
+  top: 62.3%;
+  width: 11.49%;
+  height: 6.65%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line128.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.4s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.4s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.4s linear 3.15s infinite alternate;
+  -o-animation: pics 2.4s linear 3.15s infinite alternate;
+}
+
+.line_129 {
+  position: absolute;
+  left: 35.5%;
+  top: 45.8%;
+  width: 9.8%;
+  height: 3.66%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line129.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_130 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line130.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_27 .1s linear 1.8s 1 normal forwards;
+  -moz-animation: line_27 .1s linear 1.8s 1 normal forwards;
+  -webkit-animation: line_27 .1s linear 1.8s 1 normal forwards;
+  -o-animation: line_27 .1s linear 1.8s 1 normal forwards;
+}
+
+.line_131 {
+  position: absolute;
+  left: 30%;
+  top: 41.8%;
+  width: 8.55%;
+  height: 6.46%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line131.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_132 {
+  position: absolute;
+  left: 13%;
+  top: 54.8%;
+  width: 2.54%;
+  height: 4.85%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line132.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_133 {
+  position: absolute;
+  left: 25%;
+  top: 73.5%;
+  width: 5.2%;
+  height: 4.07%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line133.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_134 {
+  position: absolute;
+  left: 24%;
+  top: 71.5%;
+  width: 1.53%;
+  height: 2.49%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line134.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.9s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.9s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.9s linear 3.15s infinite alternate;
+  -o-animation: pics 2.9s linear 3.15s infinite alternate;
+}
+
+.line_135 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line135.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_28 .1s linear 1.85s 1 normal forwards;
+  -moz-animation: line_28 .1s linear 1.85s 1 normal forwards;
+  -webkit-animation: line_28 .1s linear 1.85s 1 normal forwards;
+  -o-animation: line_28 .1s linear 1.85s 1 normal forwards;
+}
+
+.line_136 {
+  position: absolute;
+  left: 12.7%;
+  top: 54.5%;
+  width: 2.78%;
+  height: 5.08%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line136.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_137 {
+  position: absolute;
+  left: 18.7%;
+  top: 54.5%;
+  width: 5.81%;
+  height: 4.13%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line137.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_138 {
+  position: absolute;
+  left: 23.3%;
+  top: 65.7%;
+  width: 6.29%;
+  height: 1.76%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line138.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_139 {
+  position: absolute;
+  left: 27.5%;
+  top: 50%;
+  width: 6.13%;
+  height: 3.78%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line139.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_140 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line140.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_29 .1s linear 1.9s 1 normal forwards;
+  -moz-animation: line_29 .1s linear 1.9s 1 normal forwards;
+  -webkit-animation: line_29 .1s linear 1.9s 1 normal forwards;
+  -o-animation: line_29 .1s linear 1.9s 1 normal forwards;
+}
+
+.line_141 {
+  position: absolute;
+  left: 50%;
+  top: 59%;
+  width: 8.39%;
+  height: 4.29%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line141.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_142 {
+  position: absolute;
+  left: 42.5%;
+  top: 60%;
+  width: 7.82%;
+  height: 3.53%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line142.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_143 {
+  position: absolute;
+  left: 34.3%;
+  top: 68%;
+  width: 4.76%;
+  height: 3.72%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line143.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_144 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line144.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_41 .1s linear 2.5s 1 normal forwards;
+  -moz-animation: line_41 .1s linear 2.5s 1 normal forwards;
+  -webkit-animation: line_41 .1s linear 2.5s 1 normal forwards;
+  -o-animation: line_41 .1s linear 2.5s 1 normal forwards;
+}
+
+.line_145 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line145.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_30 .1s linear 1.95s 1 normal forwards;
+  -moz-animation: line_30 .1s linear 1.95s 1 normal forwards;
+  -webkit-animation: line_30 .1s linear 1.95s 1 normal forwards;
+  -o-animation: line_30 .1s linear 1.95s 1 normal forwards;
+}
+
+.line_146 {
+  position: absolute;
+  left: 22.7%;
+  top: 57%;
+  width: 8.18%;
+  height: 6.81%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line146.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.95s linear 3.15s infinite alternate;
+  -moz-animation: pics 2.95s linear 3.15s infinite alternate;
+  -webkit-animation: pics 2.95s linear 3.15s infinite alternate;
+  -o-animation: pics 2.95s linear 3.15s infinite alternate;
+}
+
+.line_147 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line147.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_40 .1s linear 2.45s 1 normal forwards;
+  -moz-animation: line_40 .1s linear 2.45s 1 normal forwards;
+  -webkit-animation: line_40 .1s linear 2.45s 1 normal forwards;
+  -o-animation: line_40 .1s linear 2.45s 1 normal forwards;
+}
+
+.line_148 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line148.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_39 .1s linear 2.4s 1 normal forwards;
+  -moz-animation: line_39 .1s linear 2.4s 1 normal forwards;
+  -webkit-animation: line_39 .1s linear 2.4s 1 normal forwards;
+  -o-animation: line_39 .1s linear 2.4s 1 normal forwards;
+}
+
+.line_149 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line149.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_38 .1s linear 2.35s 1 normal forwards;
+  -moz-animation: line_38 .1s linear 2.35s 1 normal forwards;
+  -webkit-animation: line_38 .1s linear 2.35s 1 normal forwards;
+  -o-animation: line_38 .1s linear 2.35s 1 normal forwards;
+}
+
+.line_150 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line150.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_31 .1s linear 2s 1 normal forwards;
+  -moz-animation: line_31 .1s linear 2s 1 normal forwards;
+  -webkit-animation: line_31 .1s linear 2s 1 normal forwards;
+  -o-animation: line_31 .1s linear 2s 1 normal forwards;
+}
+
+.line_151 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line151.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_37 .1s linear 2.3s 1 normal forwards;
+  -moz-animation: line_37 .1s linear 2.3s 1 normal forwards;
+  -webkit-animation: line_37 .1s linear 2.3s 1 normal forwards;
+  -o-animation: line_37 .1s linear 2.3s 1 normal forwards;
+}
+
+.line_152 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line152.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_36 .1s linear 2.25s 1 normal forwards;
+  -moz-animation: line_36 .1s linear 2.25s 1 normal forwards;
+  -webkit-animation: line_36 .1s linear 2.25s 1 normal forwards;
+  -o-animation: line_36 .1s linear 2.25s 1 normal forwards;
+}
+
+.line_153 {
+  position: absolute;
+  left: 52%;
+  top: 25%;
+  width: 2.74%;
+  height: 2.74%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line153.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_154 {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  width: 11.09%;
+  height: 4.29%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line154.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 3s linear 3.15s infinite alternate;
+  -moz-animation: pics 3s linear 3.15s infinite alternate;
+  -webkit-animation: pics 3s linear 3.15s infinite alternate;
+  -o-animation: pics 3s linear 3.15s infinite alternate;
+}
+
+.line_155 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line155.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_32 .1s linear 2.05s 1 normal forwards;
+  -moz-animation: line_32 .1s linear 2.05s 1 normal forwards;
+  -webkit-animation: line_32 .1s linear 2.05s 1 normal forwards;
+  -o-animation: line_32 .1s linear 2.05s 1 normal forwards;
+}
+
+.line_156 {
+  position: absolute;
+  left: 52%;
+  top: 23.5%;
+  width: 5.48%;
+  height: 1.67%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line156.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_157 {
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  width: 5.56%;
+  height: 3.18%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line157.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_158 {
+  position: absolute;
+  left: 33.5%;
+  top: 30.7%;
+  width: 7.66%;
+  height: 4.73%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line158.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_ 3.1s linear 0s 1 normal forwards;
+  -moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+  -o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_159 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/lines/line159.png) no-repeat;
+  background-size: 100% 100%;
+  animation: line_33 .1s linear 2.1s 1 normal forwards;
+  -moz-animation: line_33 .1s linear 2.1s 1 normal forwards;
+  -webkit-animation: line_33 .1s linear 2.1s 1 normal forwards;
+  -o-animation: line_33 .1s linear 2.1s 1 normal forwards;
+}
+
+/** ======================================== lines style end ======================================== */
+
+
+
+/** ======================================== trigons style start ======================================== */
+
+.pic_1 {
+  position: absolute;
+  left: 18.5%;
+  top: 51.5%;
+  width: 18.1%;
+  height: 11.9%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon001.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2s linear 0s infinite alternate;
+  -moz-animation: pics 2s linear 0s infinite alternate;
+  -webkit-animation: pics 2s linear 0s infinite alternate;
+  -o-animation: pics 2s linear 0s infinite alternate;
+}
+
+.pic_2 {
+  position: absolute;
+  left: 9.5%;
+  top: 43%;
+  width: 10%;
+  height: 10.37%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon002.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.15s linear 0s infinite alternate;
+  -moz-animation: pics 2.15s linear 0s infinite alternate;
+  -webkit-animation: pics 2.15s linear 0s infinite alternate;
+  -o-animation: pics 2.15s linear 0s infinite alternate;
+}
+
+.pic_3 {
+  position: absolute;
+  left: 27%;
+  top: 25.5%;
+  width: 20%;
+  height: 14.97%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon003.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.2s linear 0s infinite alternate;
+  -moz-animation: pics 2.2s linear 0s infinite alternate;
+  -webkit-animation: pics 2.2s linear 0s infinite alternate;
+  -o-animation: pics 2.2s linear 0s infinite alternate;
+}
+
+.pic_4 {
+  position: absolute;
+  left: 38%;
+  top: 14.5%;
+  width: 20%;
+  height: 14.97%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon004.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.25s linear 0s infinite alternate;
+  -moz-animation: pics 2.25s linear 0s infinite alternate;
+  -webkit-animation: pics 2.25s linear 0s infinite alternate;
+  -o-animation: pics 2.25s linear 0s infinite alternate;
+}
+
+.pic_5 {
+  position: absolute;
+  left: 64.5%;
+  top: 67%;
+  width: 12.38%;
+  height: 9.17%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon005.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.3s linear 0s infinite alternate;
+  -moz-animation: pics 2.3s linear 0s infinite alternate;
+  -webkit-animation: pics 2.3s linear 0s infinite alternate;
+  -o-animation: pics 2.3s linear 0s infinite alternate;
+}
+
+.pic_6 {
+  position: absolute;
+  left: 10.5%;
+  top: 26.5%;
+  width: 15.65%;
+  height: 9.17%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon006.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.4s linear 0s infinite alternate;
+  -moz-animation: pics 2.4s linear 0s infinite alternate;
+  -webkit-animation: pics 2.4s linear 0s infinite alternate;
+  -o-animation: pics 2.4s linear 0s infinite alternate;
+}
+
+.pic_7 {
+  position: absolute;
+  left: 15.5%;
+  top: 62%;
+  width: 14.76%;
+  height: 10.91%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon007.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.5s linear 0s infinite alternate;
+  -moz-animation: pics 2.5s linear 0s infinite alternate;
+  -webkit-animation: pics 2.5s linear 0s infinite alternate;
+  -o-animation: pics 2.5s linear 0s infinite alternate;
+}
+
+.pic_8 {
+  position: absolute;
+  left: 26.7%;
+  top: 57%;
+  width: 10.44%;
+  height: 8.57%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon008.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.45s linear 0s infinite alternate;
+  -moz-animation: pics 2.45s linear 0s infinite alternate;
+  -webkit-animation: pics 2.45s linear 0s infinite alternate;
+  -o-animation: pics 2.45s linear 0s infinite alternate;
+}
+
+.pic_9 {
+  position: absolute;
+  left: 57.5%;
+  top: 46.7%;
+  width: 18.35%;
+  height: 15.45%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon009.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.55s linear 0s infinite alternate;
+  -moz-animation: pics 2.55s linear 0s infinite alternate;
+  -webkit-animation: pics 2.55s linear 0s infinite alternate;
+  -o-animation: pics 2.55s linear 0s infinite alternate;
+}
+
+.pic_10 {
+  position: absolute;
+  left: 40.7%;
+  top: 69.8%;
+  width: 15%;
+  height: 9.96%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon010.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.6s linear 0s infinite alternate;
+  -moz-animation: pics 2.6s linear 0s infinite alternate;
+  -webkit-animation: pics 2.6s linear 0s infinite alternate;
+  -o-animation: pics 2.6s linear 0s infinite alternate;
+}
+
+.pic_11 {
+  position: absolute;
+  left: 80.3%;
+  top: 33.5%;
+  width: 14.56%;
+  height: 13.18%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon011.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.65s linear 0s infinite alternate;
+  -moz-animation: pics 2.65s linear 0s infinite alternate;
+  -webkit-animation: pics 2.65s linear 0s infinite alternate;
+  -o-animation: pics 2.65s linear 0s infinite alternate;
+}
+
+.pic_12 {
+  position: absolute;
+  left: 60.7%;
+  top: 16.3%;
+  width: 12.46%;
+  height: 9.17%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon012.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.7s linear 0s infinite alternate;
+  -moz-animation: pics 2.7s linear 0s infinite alternate;
+  -webkit-animation: pics 2.7s linear 0s infinite alternate;
+  -o-animation: pics 2.7s linear 0s infinite alternate;
+}
+
+.pic_13 {
+  position: absolute;
+  left: 5.5%;
+  top: 32%;
+  width: 15.16%;
+  height: 14.63%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon013.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.75s linear 0s infinite alternate;
+  -moz-animation: pics 2.75s linear 0s infinite alternate;
+  -webkit-animation: pics 2.75s linear 0s infinite alternate;
+  -o-animation: pics 2.75s linear 0s infinite alternate;
+}
+
+.pic_14 {
+  position: absolute;
+  left: 49.3%;
+  top: 27%;
+  width: 15.77%;
+  height: 12.61%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background: url(../images/trigons/trigon014.png) no-repeat;
+  background-size: 100% 100%;
+  animation: pics 2.8s linear 0s infinite alternate;
+  -moz-animation: pics 2.8s linear 0s infinite alternate;
+  -webkit-animation: pics 2.8s linear 0s infinite alternate;
+  -o-animation: pics 2.8s linear 0s infinite alternate;
+}
+
+/** ======================================== trigons style end ======================================== */
+
+
+
+/** ======================================== keyframes start ======================================== */
+
+@keyframes earth {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes earth {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+  }
+}
+
+
+
+@keyframes earth_bg {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: .6;
+    filter: alpha(opacity=60);
+  }
+}
+
+@-webkit-keyframes earth_bg {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: .6;
+    filter: alpha(opacity=60);
+  }
+}
+
+
+
+@keyframes pics {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+}
+
+@-webkit-keyframes pics {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+}
+
+/** ======================================== keyframes end ======================================== */
+
+
+
+
+
+@keyframes line_1 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 63%;
+    top: 79.5%;
+    width: 4.1%;
+    height: .41%;
+  }
+}
+
+@-webkit-keyframes line_1 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 63%;
+    top: 79.5%;
+    width: 4.1%;
+    height: .41%;
+  }
+}
+
+@keyframes line_2 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 44.8%;
+    top: 79.2%;
+    width: 8.31%;
+    height: 2.46%;
+  }
+}
+
+@-webkit-keyframes line_2 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 44.8%;
+    top: 79.2%;
+    width: 8.31%;
+    height: 2.46%;
+  }
+}
+
+@keyframes line_3 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 12%;
+    top: 60%;
+    width: 2.74%;
+    height: 2.55%;
+  }
+}
+
+@-webkit-keyframes line_3 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 12%;
+    top: 60%;
+    width: 2.74%;
+    height: 2.55%;
+  }
+}
+
+@keyframes line_4 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 49.5%;
+    top: 16.3%;
+    width: 3.55%;
+    height: 2.21%;
+  }
+}
+
+@-webkit-keyframes line_4 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 49.5%;
+    top: 16.3%;
+    width: 3.55%;
+    height: 2.21%;
+  }
+}
+
+@keyframes line_5 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 86.2%;
+    top: 34.4%;
+    width: 4.8%;
+    height: 4.38%;
+  }
+}
+
+@-webkit-keyframes line_5 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 86.2%;
+    top: 34.4%;
+    width: 4.8%;
+    height: 4.38%;
+  }
+}
+
+@keyframes line_6 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 78.3%;
+    top: 68.5%;
+    width: 4.4%;
+    height: 3.91%;
+  }
+}
+
+@-webkit-keyframes line_6 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 78.3%;
+    top: 68.5%;
+    width: 4.4%;
+    height: 3.91%;
+  }
+}
+
+@keyframes line_7 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 72%;
+    top: 38.5%;
+    width: 2.46%;
+    height: 5.83%;
+  }
+}
+
+@-webkit-keyframes line_7 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 72%;
+    top: 38.5%;
+    width: 2.46%;
+    height: 5.83%;
+  }
+}
+
+@keyframes line_8 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 72%;
+    top: 38.5%;
+    width: 2.46%;
+    height: 5.83%;
+  }
+}
+
+@-webkit-keyframes line_8 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 26.5%;
+    top: 28.7%;
+    width: 6.05%;
+    height: 3.45%;
+  }
+}
+
+@keyframes line_9 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 73.5%;
+    top: 66.7%;
+    width: 6.77%;
+    height: 4.26%;
+  }
+}
+
+@-webkit-keyframes line_9 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 73.5%;
+    top: 66.7%;
+    width: 6.77%;
+    height: 4.26%;
+  }
+}
+
+@keyframes line_10 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 10%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 51.2%;
+    top: 33.5%;
+    width: 7.42%;
+    height: 2.14%;
+  }
+}
+
+@-webkit-keyframes line_10 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 10%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 51.2%;
+    top: 33.5%;
+    width: 7.42%;
+    height: 2.14%;
+  }
+}
+
+@keyframes line_11 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 10%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 24.5%;
+    top: 22.5%;
+    width: 5.48%;
+    height: 1.99%;
+  }
+}
+
+@-webkit-keyframes line_11 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 10%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 24.5%;
+    top: 22.5%;
+    width: 5.48%;
+    height: 1.99%;
+  }
+}
+
+@keyframes line_12 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 14%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 86%;
+    top: 38%;
+    width: 2.74%;
+    height: 4.1%;
+  }
+}
+
+@-webkit-keyframes line_12 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 14%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 86%;
+    top: 38%;
+    width: 2.74%;
+    height: 4.1%;
+  }
+}
+
+@keyframes line_13 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 4%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 52.5%;
+    top: 25.3%;
+    width: 7.5%;
+    height: .38%;
+  }
+}
+
+@-webkit-keyframes line_13 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 4%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 52.5%;
+    top: 25.3%;
+    width: 7.5%;
+    height: .38%;
+  }
+}
+
+@keyframes line_14 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 25%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 58%;
+    top: 23.5%;
+    width: 7.78%;
+    height: 2.52%;
+  }
+}
+
+@-webkit-keyframes line_14 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 25%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 58%;
+    top: 23.5%;
+    width: 7.78%;
+    height: 2.52%;
+  }
+}
+
+@keyframes line_15 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 22%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 31%;
+    top: 25.5%;
+    width: 8.51%;
+    height: 6.56%;
+  }
+}
+
+@-webkit-keyframes line_15 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 22%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 31%;
+    top: 25.5%;
+    width: 8.51%;
+    height: 6.56%;
+  }
+}
+
+@keyframes line_16 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 40%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 57%;
+    top: 79.5%;
+    width: 3.63%;
+    height: .31%;
+  }
+}
+
+@-webkit-keyframes line_16 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 40%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 57%;
+    top: 79.5%;
+    width: 3.63%;
+    height: .31%;
+  }
+}
+
+@keyframes line_17 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 70%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 30.7%;
+    top: 76.6%;
+    width: 2.02%;
+    height: 1.29%;
+  }
+}
+
+@-webkit-keyframes line_17 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 70%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 30.7%;
+    top: 76.6%;
+    width: 2.02%;
+    height: 1.29%;
+  }
+}
+
+@keyframes line_18 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 90%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 19%;
+    top: 27%;
+    width: 5.77%;
+    height: 2.49%;
+  }
+}
+
+@-webkit-keyframes line_18 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 90%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 19%;
+    top: 27%;
+    width: 5.77%;
+    height: 2.49%;
+  }
+}
+
+@keyframes line_19 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 10%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 19.7%;
+    top: 65.5%;
+    width: 6.01%;
+    height: 2.77%;
+  }
+}
+
+@-webkit-keyframes line_19 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 10%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 19.7%;
+    top: 65.5%;
+    width: 6.01%;
+    height: 2.77%;
+  }
+}
+
+@keyframes line_20 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 17%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 12.7%;
+    top: 50.5%;
+    width: 2.5%;
+    height: 5.39%;
+  }
+}
+
+@-webkit-keyframes line_20 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 17%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 12.7%;
+    top: 50.5%;
+    width: 2.5%;
+    height: 5.39%;
+  }
+}
+
+@keyframes line_21 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 90%;
+    top: 17%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 15%;
+    top: 40%;
+    width: 1.85%;
+    height: 5.04%;
+  }
+}
+
+@-webkit-keyframes line_21 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 90%;
+    top: 17%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 15%;
+    top: 40%;
+    width: 1.85%;
+    height: 5.04%;
+  }
+}
+
+@keyframes line_22 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 15%;
+    top: 3%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 56.7%;
+    top: 67%;
+    width: 8.3%;
+    height: .54%;
+  }
+}
+
+@-webkit-keyframes line_22 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 15%;
+    top: 3%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 56.7%;
+    top: 67%;
+    width: 8.3%;
+    height: .54%;
+  }
+}
+
+@keyframes line_23 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 15%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 15%;
+    top: 50%;
+    width: 3.18%;
+    height: 4.19%;
+  }
+}
+
+@-webkit-keyframes line_23 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 15%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 15%;
+    top: 50%;
+    width: 3.18%;
+    height: 4.19%;
+  }
+}
+
+@keyframes line_24 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 38%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 39%;
+    top: 79.5%;
+    width: 5.56%;
+    height: .03%;
+  }
+}
+
+@-webkit-keyframes line_24 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 38%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 39%;
+    top: 79.5%;
+    width: 5.56%;
+    height: .03%;
+  }
+}
+
+@keyframes line_25 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 56%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 22.5%;
+    top: 54.8%;
+    width: 9.64%;
+    height: 5.04%;
+  }
+}
+
+@-webkit-keyframes line_25 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 56%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 22.5%;
+    top: 54.8%;
+    width: 9.64%;
+    height: 5.04%;
+  }
+}
+
+@keyframes line_26 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 54%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 27.8%;
+    top: 66%;
+    width: 8.27%;
+    height: 7.57%;
+  }
+}
+
+@-webkit-keyframes line_26 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 54%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 27.8%;
+    top: 66%;
+    width: 8.27%;
+    height: 7.57%;
+  }
+}
+
+@keyframes line_27 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 57%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 31.5%;
+    top: 52.3%;
+    width: 9.35%;
+    height: 4.13%;
+  }
+}
+
+@-webkit-keyframes line_27 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 57%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 31.5%;
+    top: 52.3%;
+    width: 9.35%;
+    height: 4.13%;
+  }
+}
+
+@keyframes line_28 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 19%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 15.3%;
+    top: 59.5%;
+    width: 2.82%;
+    height: 2.3%;
+  }
+}
+
+@-webkit-keyframes line_28 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 19%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 15.3%;
+    top: 59.5%;
+    width: 2.82%;
+    height: 2.3%;
+  }
+}
+
+@keyframes line_29 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 45.7%;
+    top: 63%;
+    width: 10.08%;
+    height: 5.61%;
+  }
+}
+
+@-webkit-keyframes line_29 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 45.7%;
+    top: 63%;
+    width: 10.08%;
+    height: 5.61%;
+  }
+}
+
+@keyframes line_30 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 77%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 32.2%;
+    top: 62%;
+    width: 7.66%;
+    height: 7.41%;
+  }
+}
+
+@-webkit-keyframes line_30 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 77%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 32.2%;
+    top: 62%;
+    width: 7.66%;
+    height: 7.41%;
+  }
+}
+
+@keyframes line_31 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 62%;
+    top: 49.5%;
+    width: 9.31%;
+    height: 8.57%;
+  }
+}
+
+@-webkit-keyframes line_31 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 62%;
+    top: 49.5%;
+    width: 9.31%;
+    height: 8.57%;
+  }
+}
+
+@keyframes line_32 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 43%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 44%;
+    top: 22.3%;
+    width: 9.96%;
+    height: 5.33%;
+  }
+}
+
+@-webkit-keyframes line_32 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 43%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 44%;
+    top: 22.3%;
+    width: 9.96%;
+    height: 5.33%;
+  }
+}
+
+@keyframes line_33 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 13%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 39.7%;
+    top: 35.7%;
+    width: 9.8%;
+    height: 7.94%;
+  }
+}
+
+@-webkit-keyframes line_33 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 13%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 39.7%;
+    top: 35.7%;
+    width: 9.8%;
+    height: 7.94%;
+  }
+}
+
+@keyframes line_34 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 33%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 59%;
+    top: 80%;
+    width: 4.23%;
+    height: 1.83%;
+  }
+}
+
+@-webkit-keyframes line_34 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 33%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 59%;
+    top: 80%;
+    width: 4.23%;
+    height: 1.83%;
+  }
+}
+
+@keyframes line_35 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 78%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 84.3%;
+    top: 61.7%;
+    width: 3.91%;
+    height: 3.4%;
+  }
+}
+
+@-webkit-keyframes line_35 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 78%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 84.3%;
+    top: 61.7%;
+    width: 3.91%;
+    height: 3.4%;
+  }
+}
+
+@keyframes line_36 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 37%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 43%;
+    top: 30.7%;
+    width: 9.96%;
+    height: 7.72%;
+  }
+}
+
+@-webkit-keyframes line_36 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 37%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 43%;
+    top: 30.7%;
+    width: 9.96%;
+    height: 7.72%;
+  }
+}
+
+@keyframes line_37 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 47%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 53%;
+    top: 26.7%;
+    width: 6.9%;
+    height: 7.85%;
+  }
+}
+
+@-webkit-keyframes line_37 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 47%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 53%;
+    top: 26.7%;
+    width: 6.9%;
+    height: 7.85%;
+  }
+}
+
+@keyframes line_38 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 77%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 29%;
+    top: 58.5%;
+    width: 5.56%;
+    height: 4.67%;
+  }
+}
+
+@-webkit-keyframes line_38 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 77%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 29%;
+    top: 58.5%;
+    width: 5.56%;
+    height: 4.67%;
+  }
+}
+
+@keyframes line_39 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 21%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 29%;
+    top: 52%;
+    width: 9.64%;
+    height: 8.86%;
+  }
+}
+
+@-webkit-keyframes line_39 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 21%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 29%;
+    top: 52%;
+    width: 9.64%;
+    height: 8.86%;
+  }
+}
+
+@keyframes line_40 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 31%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 34.7%;
+    top: 59.7%;
+    width: 7.9%;
+    height: 3.59%;
+  }
+}
+
+@-webkit-keyframes line_40 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 31%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 34.7%;
+    top: 59.7%;
+    width: 7.9%;
+    height: 3.59%;
+  }
+}
+
+@keyframes line_41 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 21%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 37.2%;
+    top: 62%;
+    width: 10.6%;
+    height: 7.82%;
+  }
+}
+
+@-webkit-keyframes line_41 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 21%;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 37.2%;
+    top: 62%;
+    width: 10.6%;
+    height: 7.82%;
+  }
+}
+
+@keyframes line_42 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 16%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 64.3%;
+    top: 19%;
+    width: 5.4%;
+    height: 3.62%;
+  }
+}
+
+@-webkit-keyframes line_42 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 0;
+    top: 16%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 64.3%;
+    top: 19%;
+    width: 5.4%;
+    height: 3.62%;
+  }
+}
+
+@keyframes line_43 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 22%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 57%;
+    top: 24.3%;
+    width: 11.05%;
+    height: 8.57%;
+  }
+}
+
+@-webkit-keyframes line_43 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 22%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 57%;
+    top: 24.3%;
+    width: 11.05%;
+    height: 8.57%;
+  }
+}
+
+@keyframes line_44 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 47%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 56%;
+    top: 18.3%;
+    width: 9.8%;
+    height: 6.4%;
+  }
+}
+
+@-webkit-keyframes line_44 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 47%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 56%;
+    top: 18.3%;
+    width: 9.8%;
+    height: 6.4%;
+  }
+}
+
+@keyframes line_45 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 88%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 72.5%;
+    top: 31.7%;
+    width: 7.82%;
+    height: 7.98%;
+  }
+}
+
+@-webkit-keyframes line_45 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 88%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 72.5%;
+    top: 31.7%;
+    width: 7.82%;
+    height: 7.98%;
+  }
+}
+
+@keyframes line_46 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 55%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 35%;
+    top: 54%;
+    width: 10.89%;
+    height: 7.31%;
+  }
+}
+
+@-webkit-keyframes line_46 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 55%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 35%;
+    top: 54%;
+    width: 10.89%;
+    height: 7.31%;
+  }
+}
+
+@keyframes line_47 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 55%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 18.3%;
+    top: 62%;
+    width: 4.68%;
+    height: 3.5%;
+  }
+}
+
+@-webkit-keyframes line_47 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 55%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 18.3%;
+    top: 62%;
+    width: 4.68%;
+    height: 3.5%;
+  }
+}
+
+@keyframes line_48 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 77%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 18.3%;
+    top: 66%;
+    width: 5.36%;
+    height: 4.13%;
+  }
+}
+
+@-webkit-keyframes line_48 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 77%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 18.3%;
+    top: 66%;
+    width: 5.36%;
+    height: 4.13%;
+  }
+}
+
+@keyframes line_49 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 30.5%;
+    top: 67%;
+    width: 7.22%;
+    height: 6.49%;
+  }
+}
+
+@-webkit-keyframes line_49 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 30.5%;
+    top: 67%;
+    width: 7.22%;
+    height: 6.49%;
+  }
+}
+
+@keyframes line_50 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 75%;
+    top: 56.8%;
+    width: 6.33%;
+    height: 4.88%;
+  }
+}
+
+@-webkit-keyframes line_50 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 100%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 75%;
+    top: 56.8%;
+    width: 6.33%;
+    height: 4.88%;
+  }
+}
+
+@keyframes line_51 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 67%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 80%;
+    top: 60.8%;
+    width: 4.4%;
+    height: 3.31%;
+  }
+}
+
+@-webkit-keyframes line_51 {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    left: 100%;
+    top: 67%;
+    width: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    left: 80%;
+    top: 60.8%;
+    width: 4.4%;
+    height: 3.31%;
+  }
+}
+
+@keyframes line_ {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+}
+
+@-webkit-keyframes line_ {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+}
+
+

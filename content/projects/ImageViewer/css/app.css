@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.imgWrapper {
+	text-align: center;
+	margin: 20px;
+}
+
+.toolbox {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 99999;
+}
+
+.toolctl {
+	display: inline-block;
+	height: 30px;
+	background-color: #6f6965;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	padding: 5px 14px;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+.toolctl span {
+	margin-right: 20px;
+}
+
+.toolctl i {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-fullscreen {
+	width: 18px;
+	height: 18px;
+	background-image: url('../images/icon-fullscreen.png');
+}
+.icon-bigger {
+	width: 20px;
+	height: 19px;
+	background-image: url('../images/icon-bigger.png');
+}
+.icon-smaller {
+	width: 20px;
+	height: 19px;
+	background-image: url('../images/icon-smaller.png');
+}
+.icon-rotate-clockwise {
+	width: 17px;
+	height: 20px;
+	background-image: url('../images/icon-rotate-clockwise.png');
+}
+.icon-rotate-counterclockwise {
+	width: 17px;
+	height: 20px;
+	background-image: url('../images/icon-rotate-counterclockwise.png');
+}
+.icon-download {
+	width: 16px;
+	height: 20px;
+	background-image: url('../images/icon-download.png');
+}
+
+.lb-btn {
+	display: block;
+	width: 41px;
+	height: 41px;
+	position: fixed;
+	top: 50%;
+	margin-top: -20px;
+	cursor: pointer;
+}
+
+.lb-btn-l {
+	background: url(../images/btn-l.png) no-repeat center;
+	left: 50px;
+}
+
+.lb-btn-l:hover {
+	background: url(../images/btn-l-h.png) no-repeat center;
+}
+
+.lb-btn-r {
+	background: url(../images/btn-r.png) no-repeat center;
+	right: 50px;
+}
+
+.lb-btn-r:hover {
+	background: url(../images/btn-r-h.png) no-repeat center;
+}

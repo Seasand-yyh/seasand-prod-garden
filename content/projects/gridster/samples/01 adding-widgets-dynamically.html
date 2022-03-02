@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="author" content="Seasand-yyh">
+  <meta name="description" content="gridster">
+  <meta http-equiv="keywords" content="gridster">
+  <title>Adding widgets dynamically</title>
+  <link rel="stylesheet" type="text/css" href="../gridster/jquery.gridster.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="../gridster/jquery.gridster.min.js"></script>
+</head>
+<body>
+  <h2>Add widgets dynamically</h2>
+  <p>Create a grid adding widgets from an Array (not from HTML) using <code>add_widget</code> method. Widget position (col, row) not specified.</p>
+  <br/><hr/><br/>
+  <div class="gridster">
+    <ul></ul>
+  </div>
+
+  <script type="text/javascript">
+    $(function() {
+      var gridster = $(".gridster > ul").gridster({
+        widget_margins: [10, 10],
+        widget_base_dimensions: [100, 100]
+      }).data('gridster');
+
+      var widgets = [
+        ['<li>0</li>', 1, 1],
+        ['<li>1</li>', 1, 1],
+        ['<li>2</li>', 1, 1],
+        ['<li>3</li>', 1, 1],
+        ['<li>4</li>', 1, 1],
+        ['<li>5</li>', 1, 1],
+        ['<li>6</li>', 1, 1],
+        ['<li>7</li>', 1, 1],
+        ['<li>8</li>', 1, 1],
+        ['<li>9</li>', 1, 1],
+        ['<li>10</li>', 2, 2]
+      ];
+
+      $.each(widgets, function (i, widget) {
+        gridster.add_widget.apply(gridster, widget);
+      });
+    });
+  </script>
+</body>
+</html>
