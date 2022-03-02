@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Magic Polygon</title>
+  <style type="text/css">
+    body {
+      width:100%;
+      height:700px;
+      margin:0;
+      padding:0;
+    }
+    #optWrapper {
+      padding:10px 20px;
+    }
+    input {
+      margin-right: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div id="optWrapper">
+    <label for="color">Color：</label>
+    <input type="color" style="width:80px;" id="color" value="#000000" />
+
+    <label for="pointColor">PointColor：</label>
+    <input type="color" style="width:80px;" id="pointColor" value="#000000" />
+
+    <label for="opacity">Opacity：</label>
+    <input type="text" style="width:80px;" id="opacity" value="0.5" />
+
+    <label for="count">Count：</label>
+    <input type="text" style="width:80px;" id="count" value="50" />
+
+    <label for="zIndex">Z-Index：</label>
+    <input type="text" style="width:80px;" id="zIndex" value="-1" />
+
+    <input type="button" id="submit" value="确定" onclick="changeOpt();" />
+  </div>
+
+  <script type="text/javascript">
+    window.onload = function() {
+      loadScript();
+    };
+
+    //改变参数.
+    function changeOpt() {
+      var color = document.getElementById('color').value;
+      var pointColor = document.getElementById('pointColor').value;
+      var opacity = document.getElementById('opacity').value;
+      var count = document.getElementById('count').value;
+      var zIndex = document.getElementById('zIndex').value;
+
+      var arr = [];
+      arr.push('color='+transHex2RGB(color));
+      arr.push('pointColor='+transHex2RGB(pointColor));
+      arr.push('opacity='+opacity);
+      arr.push('count='+count);
+      arr.push('zIndex='+zIndex);
+      var url = window.location.pathname;
+      window.location.href = url + '?' + arr.join('&');
+    }
+
+    //重新加载js。
+    function loadScript() {
+      var script = document.createElement('script');
+      script.setAttribute('type', 'text/javascript');
+      script.setAttribute('src', './js/canvas-magic-polygon.js');
+      script.setAttribute('defer', 'defer');
+      
+      var color = getQueryParam('color') || '0,0,0';
+      var pointColor = getQueryParam('pointColor') || '0,0,0';
+      var opacity = getQueryParam('opacity') || '0.5';
+      var count = getQueryParam('count') || '50';
+      var zIndex = getQueryParam('zIndex') || '-1';
+
+      script.setAttribute('color', color);
+      script.setAttribute('pointColor', pointColor);
+      script.setAttribute('opacity', opacity);
+      script.setAttribute('count', count);
+      script.setAttribute('zIndex', zIndex);
+      document.getElementsByTagName('body')[0].appendChild(script);
+
+      document.getElementById('color').value = transRGB2Hex(color);
+      document.getElementById('pointColor').value = transRGB2Hex(pointColor);
+      document.getElementById('opacity').value = opacity;
+      document.getElementById('count').value = count;
+      document.getElementById('zIndex').value = zIndex;
+    }
+
+    //十六进制转RGB.
+    function transHex2RGB(hex) {
+      if(hex.indexOf('#') == 0) {
+        hex = hex.substring(1);
+      }
+      var arr = [];
+      for(var i=0; i<6; i+=2) {
+        arr.push(parseInt(hex.substring(i, i+2), 16));
+      }
+      return arr.join(',');
+    }
+
+    //RGB转十六进制.
+    function transRGB2Hex(rgb) {
+      var arr = rgb.split('\,');
+      var f1 = parseInt(arr[0]).toString(16).padStart(2, '0');
+      var f2 = parseInt(arr[1]).toString(16).padStart(2, '0');
+      var f3 = parseInt(arr[2]).toString(16).padStart(2, '0');
+      return '#' + f1 + f2 + f3;
+    }
+
+    //获取URL地址参数.
+    function getQueryParam(paramName) {
+      var query = window.location.search;
+      if(query.indexOf('?') == 0) {
+        query = query.substring(1);
+      }
+      if(!query) return;
+      var queryParams = query.split('\&');
+      for(var i=0; i<queryParams.length; i++) {
+        var pair = queryParams[i].split('\=');
+        if(pair[0] == paramName) {
+          return pair[1];
+        }
+      }
+      return;
+    }
+  </script>
+</body>
+</html>
