@@ -5,6 +5,10 @@
  */
 var app = {
 
+	DATA_FILE: 'content/data.json',
+
+	CONTENT_PREFIX: 'content/projects',
+
 	//列表数据缓存.
 	listdata: [],
 
@@ -23,7 +27,7 @@ var app = {
 	getListData: function() {
 		$.ajax({
 			type: 'get',
-			url: 'data/data.json',
+			url: app.DATA_FILE,
 			dataType: 'json',
 			success: function(data) {
 				app.renderList(data);
@@ -38,7 +42,7 @@ var app = {
 	//渲染列表.
 	renderList: function(data) {
 		var pageURL = window.location.href;
-		var baseURL = pageURL.substring(0, pageURL.indexOf('index.html')) + 'projects';
+		var baseURL = pageURL.substring(0, pageURL.indexOf('index.html')) + app.CONTENT_PREFIX;
 		var str = [];
 		data && data.forEach(function(item) {
 			var addr = item.external === 1 ? item.path : baseURL + item.path;
